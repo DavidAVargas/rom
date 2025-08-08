@@ -30,11 +30,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
        <div className="grid min-h-[100dvh] grid-rows-[auto_1fr_auto]">
-              <Header/>
-              <main className="pt-1 overflow-x-hidden">
+              {/* <Header/> */}
+              {/* <main className=""> */}
               {children}
-              </main>
-              <Footer/>
+              {/* </main> */}
+              {/* <Footer/> */}
             </div>
       </body>
     </html>
